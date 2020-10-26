@@ -10,7 +10,6 @@ C:\Users\deads\source\repos\TestePloomes\TestePloomes\obj\Debug\TestePloomes.exe
 C:\Users\deads\source\repos\TestePloomes\TestePloomes\obj\Debug\TestePloomes.pdb
 C:\Users\deads\source\repos\TestePloomes\TestePloomes\obj\Debug\RefitStubs.g.cs
 C:\Users\deads\source\repos\TestePloomes\TestePloomes\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
-C:\Users\deads\source\repos\TestePloomes\TestePloomes\bin\Debug\Refit.dll
 C:\Users\deads\source\repos\TestePloomes\TestePloomes\bin\Debug\System.Buffers.dll
 C:\Users\deads\source\repos\TestePloomes\TestePloomes\bin\Debug\System.Memory.dll
 C:\Users\deads\source\repos\TestePloomes\TestePloomes\bin\Debug\System.Numerics.Vectors.dll
@@ -20,7 +19,6 @@ C:\Users\deads\source\repos\TestePloomes\TestePloomes\bin\Debug\System.Text.Json
 C:\Users\deads\source\repos\TestePloomes\TestePloomes\bin\Debug\System.Threading.Tasks.Extensions.dll
 C:\Users\deads\source\repos\TestePloomes\TestePloomes\bin\Debug\System.ValueTuple.dll
 C:\Users\deads\source\repos\TestePloomes\TestePloomes\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
-C:\Users\deads\source\repos\TestePloomes\TestePloomes\bin\Debug\Refit.xml
 C:\Users\deads\source\repos\TestePloomes\TestePloomes\bin\Debug\System.Buffers.xml
 C:\Users\deads\source\repos\TestePloomes\TestePloomes\bin\Debug\System.Memory.xml
 C:\Users\deads\source\repos\TestePloomes\TestePloomes\bin\Debug\System.Numerics.Vectors.xml

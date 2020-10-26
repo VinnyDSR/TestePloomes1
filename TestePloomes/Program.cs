@@ -139,13 +139,13 @@ namespace TestePloomes
 
             Console.Clear();
             
-            Console.WriteLine("Digite o nome da negociacao:");
+            Console.WriteLine("Digite o nome da negociacao: ");
             novaNegociacao.Title = Console.ReadLine();
-            Console.WriteLine("Digite o ID  do contato da negociacao:");
+            Console.WriteLine("Digite o ID  do contato da negociacao: ");
             novaNegociacao.ContactId = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Digite o amount");
+            Console.WriteLine("Digite o amount: ");
             novaNegociacao.Amount = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Digite o id de estágio");
+            Console.WriteLine("Digite o id de estágio: ");
             novaNegociacao.StageId = Convert.ToInt32(Console.ReadLine());
 
             novaNegociacao.OtherProperties =
