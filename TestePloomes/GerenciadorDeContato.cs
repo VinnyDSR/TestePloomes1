@@ -1,7 +1,6 @@
 ﻿using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -39,5 +38,37 @@ namespace TestePloomes
 
             return desserializado.value[0];
         }
+        internal TasksGET CriarTask(TasksPOST novaTask)
+        {
+            string resposta =
+               ExecutarMetodo("/Tasks", JsonConvert.SerializeObject(novaTask), "POST");
+
+            
+
+            var desserializado =
+                JsonConvert.DeserializeObject<RespostaDoCriarNovaTask>(resposta);
+
+            return desserializado.value[0];
+        }
+        
+
+        internal DealsPATCH AlteraNegociacao(DealsPATCH alterarNegociacao)
+        {
+            string resposta =
+               ExecutarMetodo($"/Deals({alterarNegociacao.ContactId})", JsonConvert.SerializeObject(alterarNegociacao), "PATCH");
+
+            var desserializado =
+                JsonConvert.DeserializeObject<RespostaDoAlterarNegociacao>(resposta);
+
+            return desserializado.value[0];
+        }
+
+        internal void FinalizarTarefa(TasksGET finalizarTask)
+        {
+            string resposta =
+               ExecutarMetodo("/Tasks", JsonConvert.SerializeObject(finalizarTask), "POST");
+        }
     }
+
+    
 }

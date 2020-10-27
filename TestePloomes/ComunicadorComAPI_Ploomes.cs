@@ -57,8 +57,10 @@ namespace TestePloomes
                 {
                     resultado = str.ReadToEnd();
                 }
+
             }
 
+            
             return resultado;
         }
     }

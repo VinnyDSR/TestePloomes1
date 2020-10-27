@@ -81,12 +81,15 @@
     <Compile Include="ContatoGET.cs" />
     <Compile Include="ContatoPOST.cs" />
     <Compile Include="DealsGET.cs" />
+    <Compile Include="DealsPATCH.cs" />
     <Compile Include="DealsPOST.cs" />
     <Compile Include="GerenciadorDeContato.cs" />
     <Compile Include="Otherproperty.cs" />
     <Compile Include="Phone.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TasksGET.cs" />
+    <Compile Include="TasksPOST.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
